@@ -52,7 +52,7 @@ function Schema(d = {}) {
 		let type = getType(val)
 		let validType = props[key].type
 		if (key == "raw") raw = val
-		else if (type !== props[key].type) throw new Error(`"${key}" property must be type [${validType}] but got ${type}`)
+		else if (val && type !== props[key].type) throw new Error(`"${key}" property must be type [${validType}] but got ${type}`)
 
 		// check media
 		if (key == "media") {
@@ -93,6 +93,7 @@ function Media(d = {}) {
 		codec: {type: "string"},
 		ext: {type: "string"},
 		filename: {type: "string"},
+		hasWatermark: {type: "boolean"}
 	}
 	init(props, this)
 	for (let [key, val] of Object.entries(d)) {
