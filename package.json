@@ -15,5 +15,14 @@
   "license": "ISC",
   "files": [
     "src"
-  ]
+  ],
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanfarber/universal-schema.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanfarber/universal-schema/issues"
+  },
+  "homepage": "https://github.com/ryanfarber/universal-schema#readme"
 }
