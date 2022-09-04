@@ -1,0 +1,19 @@
+{
+  "name": "@ryanforever/universal-schema",
+  "version": "1.0.0",
+  "description": "universal content schema",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "schema",
+    "social",
+    "media"
+  ],
+  "author": "ryan forever",
+  "license": "ISC",
+  "files": [
+    "src"
+  ]
+}

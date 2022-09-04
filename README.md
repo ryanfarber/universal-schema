@@ -1,2 +1,2 @@
 # universal-schema
- universal schema for content
+universal schema for content
